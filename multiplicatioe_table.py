@@ -2,7 +2,7 @@ while True:
     try:
         print("To quit the program enter Q")
         #getting the number
-        x = int(input("Number: "))
+        x = float(input("Number: "))
 
         #Basic framework
 
@@ -20,17 +20,20 @@ while True:
         #Output
 
         print(f'''
-        {x} x 1  =  {a}
-        {x} x 2  =  {b}
-        {x} x 3  =  {c}
-        {x} x 4  =  {d}
-        {x} x 5  =  {e}
-        {x} x 6  =  {f}
-        {x} x 7  =  {g}
-        {x} x 8  =  {h}
-        {x} x 9  =  {i}
-        {x} x 10 =  {j}
+{x} x 1  =  {a}
+{x} x 2  =  {b}
+{x} x 3  =  {c}
+{x} x 4  =  {d}
+{x} x 5  =  {e}
+{x} x 6  =  {f}
+{x} x 7  =  {g}
+{x} x 8  =  {h}
+{x} x 9  =  {i}
+{x} x 10 =  {j}     
+''')
+ 
 
-        ''')
     except ValueError:
+        print("Phele fursat mai nikal")
         break
+
