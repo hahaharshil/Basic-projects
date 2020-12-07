@@ -12,5 +12,14 @@ def DistanceToTime(s , u = 0):
     return t
 
 
-
-print(TimeToDistance(10 , 5))
+while True:
+	print("""Options:
+	A) Time to Distance
+	B) Distance to Time
+	""")
+	ab = input()
+	
+	if ab.lower() == "a":
+		time = input("Time: ")
+		initVel = input("Intial velocity(0 by Default): ")
+		print(TimeToDistance(int(time) , int(initVel)))
