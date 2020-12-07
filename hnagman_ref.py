@@ -36,7 +36,7 @@ def play(word):
                 if "_" not in word_completion:
                     guessed = True
         elif len(guess) == len(word) and guess.isalpha():
-            if guess in guessed_words:
+            if guess in guessed_words: 
                 print("You already tried ", guess, "!")
             elif guess != word:
                 print(guess, " ist nicht das Wort :(")
